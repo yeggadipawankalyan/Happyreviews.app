@@ -1,0 +1,414 @@
+/* home */
+
+.letter-spacing-custom {
+    letter-spacing: 3px !important;
+}
+.text-orange {
+    color: #ffb923;
+}
+
+.logo.default {
+    height: 50px;
+}
+
+@media screen and (max-width: 992px) {
+    .logo.default {
+        height: 40px;
+    }
+}
+
+.nav-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.active {
+    color: rgb(48, 46, 46);
+}
+
+.home-s1 {
+    padding: 130px 50px 100px !important;
+}
+
+.home-s2 {
+    padding: 100px;
+    padding: 50px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+@media (min-width:769px) {
+    #menus {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px) {
+    .form_bg {
+        display: none !important;
+    }
+    
+    #menus {
+        align-items: flex-start;
+    }
+}
+
+
+#contact_section .text-center{
+    padding-top: 30px;
+}
+
+#contact_section #contact-form1 ::placeholder{
+    color: #fff;
+}
+
+#contact_section #contact-form1 .input-border-bottom, #contact_section #contact-form1 .input-border-bottom:focus{
+    color: #fff !important;
+    border-bottom: 1px solid #fff !important;
+}
+
+.bg-choose {
+    /* background: #ffb923; */
+    background: #fff;
+}
+
+.bg-choose i {
+    color: #ffb923;
+    font-size: 75px;
+    /* height: 50px;
+    width: auto; */
+}
+
+.header nav.navbar-default, nav.navbar.bootsnav {
+    box-shadow: 0px 1px 3px rgb(0, 0, 0, .1);
+}
+
+.scroll-top-home:hover {
+    background-color: #ffb923;
+    opacity: 1;
+}
+
+@media (min-width:993px) {
+    .home-s1 {
+        padding: 130 50px 100px !important;
+    }
+    header nav.navbar{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:992px) {
+    header nav.navbar{
+        padding: 0 15px;
+    }
+    .home-s1 {
+        padding: 80px 15px 50px !important;
+    }
+
+    #menus a:link, #menus a:visited {
+        color: #fff;
+        font-size: 16px;
+        text-transform: capitalize
+    }
+    
+    #menus a:focus, #menus a:active {
+        color: #fff;
+    }
+
+    #menus a:hover {
+        color: #ffb923;
+    }
+}
+
+.bg-orange {
+    background: #ffb923;
+}
+
+#callToAction {
+    background-color: rgba(2, 255, 171, 0.1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home_banner_image {
+    animation: bounce 2s ease-in-out infinite forwards;
+}
+
+@keyframes bounce {
+    0% {
+        position: relative;
+        top: 0px;
+    }
+    50% {
+        position: relative;
+        top: -10px;
+    }
+    100% {
+        position: relative;
+        top: 0px;
+    }
+}
+
+body {
+    font-family: 'Livvic', sans-serif !important;
+}
+
+.alt-font {
+    font-family: 'Livvic', sans-serif !important;
+}
+
+#menus a:link{
+    font-size: 16px;
+    text-transform: capitalize
+}
+#menus a:hover {
+    color: #ffb923 !important;
+    opacity: 1 !important;
+}
+
+nav.navbar.bootsnav ul.nav > li#menus > a.active {
+    color: #ffb923;
+}
+
+#menu p{
+    font-size: 1rem;
+}
+
+.link-color{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize
+}
+
+
+#menu p a:link{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize
+}
+#menu a:hover {
+    color: #ffb923 !important;
+    opacity: 1 !important;
+}
+
+#menu a.active {
+    color: #ffb923;
+}
+.sec-1{
+    margin-bottom: -100px;
+}
+.heading-content{
+    color: #ffb923;
+    font-size: 2.2rem;
+}
+.pricing-rates_yellow{
+    border-bottom: none !important;
+    border-top: solid 3px #FFBB10 !important;
+}
+
+.pricing-rates_yellow h4{
+    color: #FFBB10 !important;
+}
+
+.pricing-rates_yellow p{
+    font-size: 12px;
+}  
+
+.pricing-rates.pricing-rates_yellow:hover {
+    transform: scale(1.02);
+    z-index: 2;
+    border-color: #FFBB10 !important;
+    box-shadow: 0 5px 13px rgb(60 72 88 / 20%) !important;
+    background-color: #ffffff !important;
+    border-bottom: solid 1px #FFBB10 !important;
+    border-left: solid 1px #FFBB10 !important;
+    border-right: solid 1px #FFBB10 !important;
+}
+.pricing-rates_blue{
+    border-bottom: none !important;
+    border-top: solid 3px #2f55d4 !important;
+}
+
+.pricing-rates_blue h4{
+    color: #2f55d4;
+}
+
+.pricing-rates_blue p{
+    font-size: 12px;
+}
+
+.pricing-rates.pricing-rates_blue:hover {
+    transform: scale(1.02);
+    z-index: 2;
+    border-color: #2f55d4 !important;
+    box-shadow: 0 5px 13px rgb(60 72 88 / 20%) !important;
+    background-color: #ffffff !important;
+    border-bottom: solid 1px #2f55d4 !important;
+    border-left: solid 1px #2f55d4 !important;
+    border-right: solid 1px #2f55d4 !important;
+}
+.pricing-rates_green{
+    border-bottom: none !important;
+    border-top: solid 3px #00BF7F !important;
+}
+
+.pricing-rates_green h4{
+    color: #00BF7F !important;
+}
+
+.pricing-rates_green p{
+    font-size: 12px;
+}
+
+.pricing-rates.pricing-rates_green:hover {
+    transform: scale(1.02);
+    z-index: 2;
+    border-color: #00BF7F !important;
+    box-shadow: 0 5px 13px rgb(60 72 88 / 20%) !important;
+    background-color: #ffffff !important;
+    border-bottom: solid 1px #00BF7F !important;
+    border-left: solid 1px #00BF7F !important;
+    border-right: solid 1px #00BF7F !important;
+}
+
+.pricing_list{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ebecf0;
+}
+
+.pricing_list h6{
+    font-weight: 700;
+}
+
+.btn-trail {
+    border: 2px solid #262525;
+    background: transparent;
+    color: #262525 !important;
+    font-family: 'Livvic', sans-serif;
+    text-transform: capitalize;
+    font-size: 16px !important;
+}
+
+.btn-trail:hover{
+    background: linear-gradient(135deg, #94409d 80%, #bb67c4 100%) ;
+    border: 2px solid #94409d;
+    color: #fff !important;
+
+}
+
+
+.btn-demo {
+    background: linear-gradient(135deg, #ffb923 80%, #F9A88D 100%);
+    /* background: linear-gradient(to right, #ffb923, #ffb923ac ); */
+    color: #000;
+    font-family: 'Livvic', sans-serif;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    border: 2px solid #ffb923;
+}
+
+.btn-demo:hover, .btn-demo:focus {
+    background: linear-gradient(135deg, #94409d 80%, #bb67c4 100%) ;
+    border: 2px solid #94409d;
+    /* box-shadow: 0 0 2px #262525; */
+    color: #FFFF;
+}
+
+.btn-demo4 {
+    background: linear-gradient(135deg, #ffb923 80%, #F9A88D 100%);
+    /* background: linear-gradient(to right, #ffb923, #ffb923ac ); */
+    color: #000;
+    font-family: 'Livvic', sans-serif;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    border: 2px solid #ffb923;
+}
+
+.btn-demo4:hover, .btn-demo4:focus {
+    background: linear-gradient(135deg, #7D4384 80%, #b521c6 100%);
+    border: 2px solid #ffff;
+    /* box-shadow: 0 0 2px #262525; */
+    color: #ffff;
+}
+
+.btn-demo2 {
+    color: #000;
+    font-family: 'Livvic', sans-serif;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    outline:#000;
+    border: #000;
+}
+
+.btn-demo2:hover{
+    background-image: linear-gradient(315deg, #000000 80%, #ffb923);
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: #000;
+}
+
+.btn-demo2.active {
+    background-image: linear-gradient(135deg, #000000 80%, #ffb923);
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: #000;
+}
+
+.btn-demo2:active, .btn-demo2:focus {
+    background-image: linear-gradient(135deg, #000000 80%, #ffb923);
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: #000;
+}
+
+.btn-demo3 {
+    color: #ffffff;
+    font-family: 'Livvic', sans-serif;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    background: #769840;
+    outline:#000;
+    border: #000;
+}
+
+#tab-sec2.active{
+    border-color: transparent;
+    border: none;
+    border-radius: 0;
+    background: #fff;
+    top: 1px;
+    position: relative;
+}
+#contact_section{
+    background: #262525;
+}
+
+.bg-deep-pink{
+    /* background-color: #ffb923 !important; */
+    background-color: var(--base-color);
+    border-bottom: 2px solid #ffb923;
+}
+
+.dark-color{
+    color: #262525;
+}
+
+
+
+@media (max-width: 767px){
+    .sm-text-center {
+        text-align: center;
+        justify-content: center;
+    }
+    .tab-style4 .tab-content{
+        border-left: none;
+    }
+    
+}
