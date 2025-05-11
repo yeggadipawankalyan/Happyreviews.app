@@ -1,0 +1,1141 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <!-- title -->
+    <title>HappyReviews – Boost Your 5-Star Google Reviews</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="HappyReviews – Boost Your 5-Star Google Reviews">
+    <meta property="og:description" content="Automatically collect feedback and send only your happy customers to Google Reviews. Start for free, only ₹799/month after demo.">
+    <meta property="og:image" content="https://happyreviews.app/images1/favicon-happyreviews.app.png">
+    <meta property="og:url" content="https://happyreviews.app/">
+    <meta property="og:type" content="website">
+<!--  -->
+    <meta name="author" content="HappyReviews – Boost Your 5-Star Google Reviews">
+    <!-- description -->
+    <meta name="description" content="Convert happy customers into glowing reviews. Automate feedback, prevent negatives, and grow your business reputation effortlessly. Try now – just ₹499/month!">
+    <!-- keywords -->
+    <meta name="keywords" content="Google reviews, review automation, boost Google reviews, negative review filter, customer feedback tool, 5-star reviews, reputation management, WhatsApp feedback, small business reviews, online reputation tool">
+    <!-- favicon -->
+    <!-- Favicon for most browsers -->
+    <link rel="icon" type="image/png" href="./images1/favicon-happyreviews.app.png" />
+
+    <link rel="icon" type="image/png" sizes="96x96" href="./images1/favicon-96x96.png" />
+    <link rel="icon" type="image/svg+xml" href="./images1/favicon.svg" />
+    <link rel="shortcut icon" href="./images1/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images1/apple-touch-icon.png" />
+    <link rel="manifest" href="./images1/site.webmanifest" />
+
+        <!-- animation -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- et line icon -->
+    <link rel="stylesheet" href="css/et-line-icons.css" />
+    <!-- font-awesome icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- themify icon -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- swiper carousel -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- justified gallery  -->
+    <link rel="stylesheet" href="css/justified-gallery.min.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <!-- revolution slider -->
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="css/bootsnav.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style-latest.css" />
+    <link rel="stylesheet" href="css/customstyles-latest.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/sweetalert2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/sweetalert2.js"></script>
+    <!--[if IE]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+        .swal2-container.swal2-backdrop-show,
+        .swal2-container.swal2-noanimation {
+            z-index: 11000;
+        }
+
+        .required-error {
+            border-color: #DEDEDE !important;
+        }
+        .w-100{
+            width: 100%;
+        }
+        .lg-w-70{
+            max-width: 70%;
+        }
+        @media screen and (max-width: 992px) {
+            .lg-w-70{
+                max-width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-none">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <div class="ratio ratio-16x9">
+                <video id="videoFrame" src="./videos/how-it-works.mp4" title="Video" controls></video>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- start header -->
+    <header style="margin-bottom: 100px;">
+        <!-- start navigation -->
+        <nav
+            class="navbar navbar-expand-lg navbar-default bootsnav background-white navbar-top padding-50px-lr sm-padding-15px-lr">
+            <div class="container-fluid nav-header-container p-0">
+                <!-- start logo -->
+                <div class="col-auto p-0">
+                    <a href="./" title="HappyReviews">
+                        <img src="images1/happy-reviews-new-logo.png" class="logo default p-0 my-4" alt="HappyReviews">
+                    </a>
+                </div>
+                <!-- end logo -->
+                
+                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse-toggle-1">
+                    <span class="sr-only">toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
+                    <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal"
+                        data-in="fadeIn" data-out="fadeOut">
+                        <!-- start menu item -->
+                        <li id="menus">
+                            <a href="#main">Home</a>
+                        </li>
+                        <!-- end menu item -->
+                        <li id="menus">
+                            <a href="#how-it-works">How it works</a>
+                        </li>
+                        <li id="menus">
+                            <a href="#why-choose-us">Benefits</a>
+                        </li>
+                        <li id="menus">
+                            <a href="#faq">FAQ</a>
+                        </li>
+                        <!-- <li class="sm-text-center md-text-center align-items-center">
+                            <a href="#contact-form1"><button class="btn btn-large btn-trail btn-rounded">Free Demo</button></a>
+                        </li> -->
+                        <li class="sm-text-center md-text-center align-items-center">
+                            <a href="https://calendly.com/contact-happyreviews/happyreviews-demo" target="_blank"><button class="btn btn-large btn-demo btn-rounded">
+                                Free Demo</button></a>
+                        </li>
+                    </ul>
+                </div>
+            
+            </div>
+        </nav>
+        <!-- end navigation -->
+    </header>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const navbarToggler = document.querySelector(".navbar-toggler");
+          const navbarCollapse = document.querySelector("#navbar-collapse-toggle-1");
+          const navLinks = document.querySelectorAll("#navbar-collapse-toggle-1 a");
+      
+          navLinks.forEach(link => {
+            link.addEventListener("click", () => {
+              // Check if the navbar is currently shown (i.e., has 'show' class or not collapsed)
+              if (navbarToggler && getComputedStyle(navbarToggler).display !== "none") {
+                // Manually trigger click on toggler to collapse menu
+                navbarToggler.click();
+              }
+            });
+          });
+        });
+      </script>
+      
+    <!-- end header -->
+
+    <!--Start Section-->
+    <section class="padding-50px-all sm-padding-15px-all top-space" id="main">
+        <div class="container-fluid wow fadeIn">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-xl-6 col-md-6 sm-no-margin-top wow fadeInUp"
+                    data-wow-delay="0.2s">
+                    <div class="w-100">
+                        <h5 class="font-weight-600 alt-font text-extra-dark-gray letter-spacing-minus-1">Are Negative Reviews Hurting Your Business? </h5>
+                        <h6 class="alt-font text-extra-dark-gray font-weight-500">
+                            HAPPYREVIEWS – your shield against negative reviews!
+                        </h6>
+                        <ul class="list-style-4">
+                            <li class="dark-color alt-font text-medium" style="border-bottom: none;">Only happy customers are nudged to leave a Google review.</li>
+                            <li class="dark-color alt-font text-medium">Unhappy feedback is captured privately—before it goes public.</li>
+                        </ul>
+                        <div class="mt-3">
+                            <a data-bs-toggle="modal" data-bs-target="#videoModal" class="btn btn-large btn-trail btn-rounded md-w-50 d-block d-md-inline-flex mb-3">
+                                Watch How It Works
+                              </a>
+                            <a href="https://calendly.com/contact-happyreviews/happyreviews-demo" target="_blank" class="btn btn-large btn-demo btn-rounded md-w-50 d-block d-md-inline-flex mb-3 ml-md-3">Free Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6 col-md-6 text-center sm-margin-15px-bottom sm-margin-20px-top wow fadeInRight"
+                    data-wow-delay=".2s">
+                    <img src="images1/happy-reviews.png" class="img-section1 home_banner_image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const videoModal = document.getElementById('videoModal');
+        const video = document.getElementById('videoFrame');
+      
+        videoModal.addEventListener('shown.bs.modal', () => {
+          video.currentTime = 0;
+          video.play();
+        });
+      
+        videoModal.addEventListener('hidden.bs.modal', () => {
+          video.pause();
+          video.currentTime = 0;
+        });
+      </script>
+      
+    <!--End Section-->
+    
+    <section class="padding-50px-all sm-padding-15px-all">
+        <div class="container-fluid" id="how-it-works">
+            <div class="text-center padding-50px-bottom sm-padding-30px-bottom">
+                <h5 class="dark-color font-weight-600 alt-font letter-spacing-minus-1 mb-0" >How it Works</h5>
+            </div>
+            <div  id="video2" style="position: relative; max-height: 70vh;">
+                <video  id="customVideo" poster="./images1/thumbnail-img.png"  class="lg-w-70 mx-auto" playsinline type="video/mp4" src="./videos/how-it-works.mp4"
+                  style="border-radius:1rem; max-height: 100%; width: 100%;" controls >
+                </video>
+                <div id="playButton">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="#fff">
+                        <path d="M8 5v14l11-7z" />
+                    </svg>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <script>
+        const video1 = document.getElementById('customVideo');
+        const playButton = document.getElementById('playButton');
+
+        // Style the play button overlay
+        playButton.style.position = 'absolute';
+        playButton.style.top = '50%';
+        playButton.style.left = '50%';
+        playButton.style.transform = 'translate(-50%, -50%)';
+        playButton.style.zIndex = '2';
+        playButton.style.cursor = 'pointer';
+        playButton.style.background = 'rgba(0, 0, 0, 0.5)';
+        playButton.style.borderRadius = '50%';
+        playButton.style.padding = '20px';
+
+        // Hide play button when video starts playing
+        video1.addEventListener('play', () => {
+            playButton.style.display = 'none';
+        });
+
+        // Show play button when video is paused
+        video1.addEventListener('pause', () => {
+            playButton.style.display = 'block';
+        });
+
+        // Toggle play/pause when clicking the custom button
+        playButton.addEventListener('click', () => {
+            if (video1.paused) {
+                video1.play();
+            } else {
+                video1.pause();
+            }
+        });
+
+        // Hide play button on initial load if autoplay is enabled and working
+        window.addEventListener('load', () => {
+            if (!video1.paused) {
+                playButton.style.display = 'none';
+            }
+        });
+    </script>
+   
+      
+
+    <!--Start Section-->
+    <section class="why-choose-us padding-50px-all sm-padding-15px-all" id="why-choose-us">
+        <div class="container-fluid wow fadeIn" data-wow-delay="0.4s">
+            <div class="col-12 text-center padding-50px-bottom sm-padding-30px-bottom">
+                <h5 class="dark-color font-weight-600 alt-font letter-spacing-minus-1 mb-0" >Why choose HappyReviews</h5>
+            </div>
+            <div class="row">
+                <!-- start features box item -->
+                <div class="col-12 col-lg-4 col-md-6 last-paragraph-no-margin margin-30px-bottom wow fadeInUp"
+                    data-wow-delay=".2s">
+                    <div
+                        class="padding-50px-all lg-padding-40px-all sm-padding-30px-all bg-white box-shadow text-center feature-card">
+                        <div class="bg-chooseNum">
+                            <span>01</span>
+                        </div>
+                        <span
+                            class="alt-font text-extra-dark-gray font-weight-600 d-block margin-20px-bottom text-large">
+                            Smart Feedback Filtering</span>
+
+                        <p class="featurecard-desc margin-20px-bottom">
+                            Only satisfied customers get the review link—others share feedback privately.</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col-12 col-lg-4 col-md-6 last-paragraph-no-margin margin-30px-bottom wow fadeInUp"
+                    data-wow-delay=".2s">
+                    <div
+                        class="padding-50px-all lg-padding-40px-all sm-padding-30px-all bg-white box-shadow text-center feature-card">
+                        <div class="bg-chooseNum">
+                            <span>02</span>
+                        </div>
+                        <span
+                            class="alt-font text-extra-dark-gray font-weight-600 d-block margin-20px-bottom text-large">
+                            Boost Google Ratings</span>
+
+                        <p class="featurecard-desc margin-20px-bottom">
+                            Increase 5-star reviews with a system that nudges only happy customers.</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col-12 col-lg-4 col-md-6 last-paragraph-no-margin margin-30px-bottom wow fadeInUp"
+                    data-wow-delay=".2s">
+                    <div
+                        class="padding-50px-all lg-padding-40px-all sm-padding-30px-all bg-white box-shadow text-center feature-card">
+                        <div class="bg-chooseNum">
+                            <span>03</span>
+                        </div>
+                        <span
+                            class="alt-font text-extra-dark-gray font-weight-600 d-block margin-20px-bottom text-large">
+                            Catch Issues Early</span>
+
+                        <p class="featurecard-desc margin-20px-bottom">
+                            Get notified instantly when a customer is unhappy—resolve it before it escalates.</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col-12 col-lg-4 col-md-6 last-paragraph-no-margin margin-30px-bottom wow fadeInUp"
+                    data-wow-delay=".2s">
+                    <div
+                        class="padding-50px-all lg-padding-40px-all sm-padding-30px-all bg-white box-shadow text-center feature-card">
+                        <div class="bg-chooseNum">
+                            <span>04</span>
+                        </div>
+                        <span
+                            class="alt-font text-extra-dark-gray font-weight-600 d-block margin-20px-bottom text-large">
+                            Simple Dashboard Insights</span>
+
+                        <p class="featurecard-desc margin-20px-bottom">
+                            Track feedback trends and review performance in one clean dashboard.</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col-12 col-lg-4 col-md-6 last-paragraph-no-margin margin-30px-bottom wow fadeInUp"
+                    data-wow-delay=".2s">
+                    <div
+                        class="padding-50px-all lg-padding-40px-all sm-padding-30px-all bg-white box-shadow text-center feature-card">
+                        <div class="bg-chooseNum">
+                            <span>05</span>
+                        </div>
+                        <span
+                            class="alt-font text-extra-dark-gray font-weight-600 d-block margin-20px-bottom text-large">
+                            WhatsApp Integration</span>
+
+                        <p class="featurecard-desc margin-20px-bottom">
+                            Engage customers where they are—via simple, automated WhatsApp messages.</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col-12 col-lg-4 col-md-6 last-paragraph-no-margin margin-30px-bottom wow fadeInUp"
+                    data-wow-delay=".2s">
+                    <div
+                        class="padding-50px-all lg-padding-40px-all sm-padding-30px-all bg-white box-shadow text-center feature-card">
+                        <div class="bg-chooseNum">
+                            <span>06</span>
+                        </div>
+                        <span
+                            class="alt-font text-extra-dark-gray font-weight-600 d-block margin-20px-bottom text-large">
+                            No Tech Skills Needed</span>
+
+                        <p class="featurecard-desc margin-20px-bottom">
+                            Easy to set up. No coding or tech background required—get started in minutes!</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+           
+               
+            </div>
+        </div>
+    </section>
+    <!--End Section-->
+
+    <!-- start call to action style 01 section -->
+    <section class="wow fadeIn padding-50px-all px-0" style="background-color: #262525;" id="home_action">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-12 text-center">
+                    <div class="position-relative overflow-hidden w-100">
+                        <!-- <h5 class="alt-font font-weight-600 text-white-2">
+                            10x your business google reviews with happyreviews QR scanner
+                        </h5> -->
+                        <h6
+                            class="alt-font font-weight-500 text-white-2 width-90 mx-auto lg-width-100 wow fadeInUp ">
+                            Start your review journey today — Free demo, just ₹799/month after
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-12 d-lg-block d-none text-center">
+                    <a href="https://web.whatsapp.com/send?phone=+91 9154171047&text=Hello!" target="_blank" class="btn btn-large btn-demo rounded-pill wow fadeInUp "
+                        data-wow-delay="0.2s">
+                        Try Now
+                    </a>
+                    <br>
+                    <!-- <a href="tel:+1234567890" target="_blank">
+                        <button class="btn btn-large btn-demo btn-rounded">
+                            Talk to Us
+                        </button>
+                    </a>                     -->
+                </div>
+                <div class="col-12 d-lg-none d-block text-center">
+                    <a href="https://wa.me/+919154171047?text=Hello" target="_blank" class="btn btn-large btn-demo rounded-pill wow fadeInUp "
+                        data-wow-delay="0.2s">
+                        Try Now
+                    </a>
+                    <br>
+                    <!-- <a href="tel:+1234567890" target="_blank">
+                        <button class="btn btn-large btn-demo btn-rounded">
+                            Talk to Us
+                        </button>
+                    </a>                     -->
+                </div>
+
+                <div class="col-12 text-center pt-3 "  >
+                    <p class="text-white fs-6  wow fadeInUp mb-0 data-wow-delay="0.2s">No credit card needed - Just results.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end call to action section -->
+    <!-- pricing section starts -->
+    <!-- <section class="padding-50px-all sm-padding-15px-all wow fadeIn bg-light-gray" id="pricing" style="margin-top: -20px;">
+        <div class="container tab-style4">
+            <div class="col-12 d-flex justify-content-center align-items-center text-center">
+                <h5 class="dark-color font-weight-600 alt-font btn-demo1 letter-spacing-minus-1  pb-3" >Pricing</h5>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-2 col-md-3 pr-0 position-relative z-index-1">
+                    <zzzstart tab navigation -->
+                    <!-- <ul class="nav nav-tabs-1 text-uppercase text-extra-large font-weight-600 sm-text-center">
+                        <li class="nav-item margin-5px-bottom"><a class="nav-link btn-demo2 text-white-2 active mb-2"
+                                href="#tab-four1" data-toggle="tab">Half-yearly</a></li>
+                        <li class="nav-item"><a class="nav-link btn-demo2 text-black" href="#tab-four2"
+                                data-toggle="tab">Yearly</a></li>
+                    </ul> -->
+                    <!-- end tab navigation -->
+                <!-- </div> -->
+                <!-- <div class="col-12 col-lg-10 col-md-9 pl-0">
+                    <div class="tab-content">
+                        <!- start tab content -->
+                        <!-- <div class="tab-pane med-text fade in active show" id="tab-four1">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-lg-4 md-margin-20px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                                    <div
+                                        class="card pricing-rates pricing-rates_blue shadow rounded text-left border-0">
+                                        <div class="card-body py-5">
+                                            <h4 class="title fw-bold text-uppercase mb-2">Starter</h4>
+                                            <div class="d-flex mb-1">
+                                                <span class="h3 mb-0 mt-1">&#8377;</span>
+                                                <span class="price h2 mb-0 mx-2 text-black">1000 INR</span>
+                                            </div>
+                                            <div>
+                                                <span class="price mb-0 text-muted">(per month billed
+                                                    half-yearly)</span>
+                                            </div>
+                                            <div class="pricing_list">
+                                                <ul class="list-style-12 mb-0 ps-0">
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>200
+                                                        responses</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Unlimited
+                                                        questions </li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>QR code
+                                                    </li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Link</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 md-margin-20px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                                    <div
+                                        class="card pricing-rates  pricing-rates_yellow shadow rounded text-left border-0">
+                                        <div class="card-body py-5">
+                                            <h4 class="title fw-bold text-uppercase text-primary mb-2">Basic</h4>
+                                            <div class="d-flex mb-1">
+                                                <span class="h3 mb-0 mt-1">&#8377;</span>
+                                                <span class="price h2 mb-0 mx-2 text-black">2200 INR</span>
+                                            </div>
+                                            <div>
+                                                <span class="price mb-0 text-muted">(per month billed
+                                                    half-yearly)</span>
+                                            </div>
+                                            <div class="pricing_list">
+                                                <ul class="list-style-12 mb-0 ps-0">
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>1000
+                                                        responses</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Unlimited
+                                                        questions</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>QR code &
+                                                        link</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Business
+                                                        logo</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 md-margin-20px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                                    <div
+                                        class="card pricing-rates pricing-rates_green shadow rounded text-left border-0">
+                                        <div class="card-body py-5">
+                                            <h4 class="title fw-bold text-uppercase text-primary mb-2">Pro</h4>
+                                            <div class="d-flex mb-1">
+                                                <span class="h3 mb-0 mt-1">&#8377;</span>
+                                                <span class="price h2 mb-0 mx-2 text-black">3200 INR</span>
+                                            </div>
+                                            <div>
+                                                <span class="price mb-0 text-muted">(per month billed
+                                                    half-yearly)</span>
+                                            </div>
+                                            <div class="pricing_list">
+                                                <ul class="list-style-12 mb-0 ps-0">
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Unlimited
+                                                        resposnes</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Unlimited
+                                                        questions</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>QR code &
+                                                        link</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Business
+                                                        logo</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- end tab content -->
+                        <!-- start tab content -->
+                        <!-- <div class="tab-pane fade in" id="tab-four2">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-lg-4 md-margin-20px-bottom">
+                                    <div
+                                        class="card pricing-rates pricing-rates_blue shadow rounded text-left border-0">
+                                        <div class="card-body py-5">
+                                            <h4 class="title fw-bold text-uppercase mb-2">Starter</h4>
+                                            <div class="d-flex mb-1">
+                                                <span class="h3 mb-0 mt-1">&#8377;</span>
+                                                <span class="price h2 mb-0 mx-2 text-black">800 INR</span>
+                                            </div>
+                                            <div>
+                                                <span class="price mb-0 text-muted">(per month billed annually)</span>
+                                            </div>
+                                            <div class="pricing_list">
+                                                <ul class="list-style-12 mb-0 ps-0">
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>200
+                                                        responses</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Unlimited
+                                                        questions </li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>QR code
+                                                    </li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Link</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 md-margin-20px-bottom">
+                                    <div
+                                        class="card pricing-rates  pricing-rates_yellow shadow rounded text-left border-0">
+                                        <div class="card-body py-5">
+                                            <h4 class="title fw-bold text-uppercase text-primary mb-2">Basic</h4>
+                                            <div class="d-flex mb-1">
+                                                <span class="h3 mb-0 mt-1">&#8377;</span>
+                                                <span class="price h2 mb-0 mx-2 text-black">2000 INR</span>
+                                            </div>
+                                            <div>
+                                                <span class="price mb-0 text-muted">(per month billed annually)</span>
+                                            </div>
+                                            <div class="pricing_list">
+                                                <ul class="list-style-12 mb-0 ps-0">
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>1000
+                                                        responses</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Unlimited
+                                                        questions</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>QR code &
+                                                        link</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Business
+                                                        logo</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 md-margin-20px-bottom">
+                                    <div
+                                        class="card pricing-rates pricing-rates_green shadow rounded text-left border-0">
+                                        <div class="card-body py-5">
+                                            <h4 class="title fw-bold text-uppercase text-primary mb-2">Pro</h4>
+                                            <div class="d-flex mb-1">
+                                                <span class="h3 mb-0 mt-1">&#8377;</span>
+                                                <span class="price h2 mb-0 mx-2 text-black">3000 INR</span>
+                                            </div>
+                                            <div>
+                                                <span class="price mb-0 text-muted">(per month billed annually)</span>
+                                            </div>
+                                            <div class="pricing_list">
+                                                <ul class="list-style-12 mb-0 ps-0">
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Unlimited
+                                                        resposnes</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Unlimited
+                                                        questions</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>QR code &
+                                                        link</li>
+                                                    <li class="h6 text-muted mb-0"><span class="text-success h5 me-2"><i
+                                                                class="uil uil-check align-middle"></i></span>Business
+                                                        logo</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- end tab content -->
+                    <!--</div>
+                </div> 
+            </div>
+        </div>
+    </section> -->
+    <!-- pricing section ends -->
+    <!-- contact us section starts -->
+    <!-- <section class="padding-50px-all sm-padding-15px-all" id="contact_section">
+        <div class="container-fluid sm-padding-0px-all p-0">
+            <form id="contact-form1" name="form-contact" class="col-12 p-0 mx-auto">
+                <div class="row justify-content-center ">
+                    <div class="col-12 col-lg-8 text-center">
+                        <h5 class="text-white-2 font-weight-500 alt-font  letter-spacing-minus-1">Contact Us</h5>
+                        <input type="text" name="Name" id="name1" placeholder="Name*" class="input-border-bottom"
+                            autocomplete="off">
+                        <input type="text" name="Email" id="email1" placeholder="E-mail*" class="input-border-bottom"
+                            autocomplete="off">
+                        <input type="text" name="Phone" id="phone1" placeholder="Phone Number*"
+                            class="input-border-bottom" autocomplete="off">
+                        <textarea name="Message" id="message" placeholder="Message"
+                            class="input-border-bottom"></textarea>
+                        <button id="contact-us-button1" type="submit"
+                            class="btn btn-large btn-demo rounded-pill sm-margin-three-top">send message</button>
+                    </div>
+                    <div class="col-12 col-lg-8 wow fadeIn text-center">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section> -->
+    <!-- contact us section ends -->
+
+    <!-- <section class="properties-section sm-padding-15px-all">
+        <div class="container sm-padding-none">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h5 class="dark-color font-weight-600 alt-font letter-spacing-minus-1 mb-0"> What Our Clients Say</h5>
+                    <!- <p>/We believe that fostering a strong, collective community centered on happiness, health, and well-being is essential to sustainable urban development.
+                         We believe in this and that reflects evidently in our communities and customers. They don’t hesitate to testify what they experience every day.</p> ->
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="carousel-inner">
+                            <div id="carouselExampleControls" class="carousel slide">
+                            <div class="carousel-item active">
+                                <div class="feature-card1">
+                                    <div class="d-lg-flex flex-column align-items-center">
+                                        <img src="./images1/person1.jpg" alt="Rajesh" class="testimonial-image">
+                                        <span class="alt-font text-extra-dark-gray fw-600 d-block margin-20px-bottom text-large">"We saw a clear spike in 5-star reviews within 2 weeks!"</span>
+                                        <h5 class="alt-font text-extra-dark-gray fw-600 d-block margin-20px-bottom fs-5  fw-600 mb-1">- Rajesh</h5>
+                                        <p class="alt-font text-extra-dark-gray fw-600 d-block margin-20px-bottom fs-6">Salon Owner, Madhapur</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feature-card1">
+                                    <div class="d-lg-flex flex-column align-items-center">
+                                        <img src="./images1/person3.webp" alt="Ajun" class="testimonial-image">
+                                        <span class="alt-font text-extra-dark-gray fw-600 d-block margin-20px-bottom text-large">"Super easy to use, and my ratings have never looked better!"</span>
+                                        <h5 class="alt-font text-extra-dark-gray fw-600 d-block margin-20px-bottom fs-5 fw-600 mb-1">- Arjun</h5>
+                                        <p class="alt-font text-extra-dark-gray fw-600 d-block margin-20px-bottom fs-6">Restaurant Owner, Chillies Restaurant</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feature-card1">
+                                    <div class="d-lg-flex flex-column align-items-center">
+                                        <img src="./images1/person2.jpg" alt="Priya" class="testimonial-image">
+                                        <span class="alt-font text-extra-dark-gray fw-600 d-block margin-20px-bottom text-large">"HappyReviews helped us catch issues before they turned into public complaints."</span>
+                                        <h5 class="alt-font text-extra-dark-gray fw-600 d-block margin-20px-bottom fs-5 fw-600 mb-1">- Priya</h5>
+                                        <p class="alt-font text-extra-dark-gray fw-600 d-block margin-20px-bottom fs-6">Clinic Manager, Hyderabad</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <i class="fas fa-chevron-left custom-carousel-icon" aria-hidden="true"></i>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <i class="fas fa-chevron-right custom-carousel-icon" aria-hidden="true"></i>
+                        </button>
+                    </div>
+              </div>
+        </div>
+    </section> -->
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76A08RT+yk5bY1rVb+0tFTvhF0z5GZQ4vYX0fZC1Q1iK8z8Gka8nWvZgI8fg3lY"
+    crossorigin="anonymous"></script> -->
+
+
+    <!-- Faq -->
+    <section class="faq-section sm-padding-15px-all padding-50px-all px-0" id="faq">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 text-center padding-50px-bottom sm-padding-30px-bottom">
+                    <h5 class="dark-color font-weight-600 alt-font letter-spacing-minus-1 mb-0">Frequently Asked Questions</h5>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                            <span class="accordion-icon">+</span>
+                            <h3 class="accordion-heading">What is HappyReviews?</h3>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="mb-lg-0 py-2">HappyReviews is a WhatsApp-based intelligent review system 
+                                    that redirects only happy customers to your Google review page. 
+                                    Unhappy customer responses are stored privately in your dashboard for
+                                     immediate action—helping you resolve issues before they go public.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                            <span class="accordion-icon">+</span>
+                            <h3 class="accordion-heading">How does HappyReviews work?</h3>
+                            </div>
+                            <div class="accordion-content">
+                            <p class="mb-lg-0 py-2">
+                                <a data-bs-toggle="modal" data-bs-target="#videoModal" class="anchor-tag"><span class="subtext">[Click here to watch the video]</span></a>
+                                  – This video will walk you through how HappyReviews collects 
+                                and manages feedback automatically through WhatsApp.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                            <span class="accordion-icon">+</span>
+                            <h3 class="accordion-heading">Is it easy to use?</h3>
+                            </div>
+                            <div class="accordion-content">
+                            <p class="mb-lg-0 py-2">
+                                Absolutely! HappyReviews is designed to be user-friendly. No technical skills are required to get started.
+                                 We also provide onboarding support to ensure a smooth setup process.</p>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                            <span class="accordion-icon">+</span>
+                            <h3 class="accordion-heading">How can I view customer details who responded?</h3>
+                            </div>
+                            <div class="accordion-content">
+                            <p class="mb-lg-0 py-2">Your HappyReviews dashboard provides real-time insights, including:</p>
+                                <ul>
+                                    <li>
+                                        <p class="mb-lg-0 py-2">Count of satisfied customers</p>
+                                    </li>
+                                    <li>
+                                        <p class="mb-lg-0 py-2"> Count of unsatisfied customers</p>
+                                    </li>
+                                    <li>
+                                        <p class="mb-lg-0 py-2">Name & phone number of both satisfied and unsatisfied customers</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                            <span class="accordion-icon">+</span>
+                            <h3 class="accordion-heading">How long does it take to get started?</h3>
+                            </div>
+                            <div class="accordion-content">
+                            <p class="mb-lg-0 py-2">
+                                We begin the onboarding process immediately after receiving the necessary details.
+                                 Your review system will be up and running within 2–7 days, depending on Meta approval timelines.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                            <span class="accordion-icon">+</span>
+                            <h3 class="accordion-heading">Do you offer customer support?</h3>
+                            </div>
+                            <div class="accordion-content">
+                            <p class="mb-lg-0 py-2">
+                                Yes! We offer dedicated support during onboarding and continued assistance via WhatsApp,
+                                 phone, or email for any questions or help you might need.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                            <span class="accordion-icon">+</span>
+                            <h3 class="accordion-heading">What do I need to provide to get started?</h3>
+                            </div>
+                            <div class="accordion-content">
+                            <p class="mb-lg-0 py-2"><a href="./images1/Welcome-HappyReviews.pdf" class="anchor-tag" target="_blank" rel="noopener noreferrer"><span class="subtext">[Click here to view the onboarding document] </span></a>
+                                – It outlines all the details you need to get started, including the basic business information required to set up your HappyReviews account.</p>
+                            </div>
+                        </div>
+                        <!-- Add more accordion items as needed -->
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const accordionItems = document.querySelectorAll('.accordion-item');
+      
+          accordionItems.forEach(item => {
+            const header = item.querySelector('.accordion-header');
+            const icon = item.querySelector('.accordion-icon');
+      
+            header.addEventListener('click', () => {
+              const isOpen = item.classList.contains('open');
+      
+              // Close all
+              accordionItems.forEach(otherItem => {
+                otherItem.classList.remove('open');
+                otherItem.querySelector('.accordion-icon').textContent = '+';
+              });
+      
+              // Toggle clicked one
+              if (!isOpen) {
+                item.classList.add('open');
+                icon.textContent = '-';
+              }
+            });
+          });
+        });
+      </script>
+      
+
+
+    <!-- start footer -->
+    <footer class="footer-modern bg-black padding-50px-lr sm-padding-15px-lr py-4">
+        <div class="container-fluid">
+            <div class="footer-bottom">
+                <div class="row justify-content-center align-items-center">
+                    <!-- start copyright -->
+                    <!-- <div class="col-12 col-md-6 text-md-left text-center text-small p-lg-0 pb-sm-3">
+                        <img src="images1/happy-reviews-v1.png" class="logo default" alt="Impaxify">
+                    </div> -->
+                    <!-- <div class="col-12 col-md-4 text-md-right text-center text-large">
+                        <div id="menu">
+                            <a href="https://happyreviews.in/disclaimer.html">Disclaimer</a>
+                        </div>
+                    </div> -->
+                    <div class="col-12 col-md-6 text-center">
+                        <div id="menu">
+                            <p class="mb-0 text-white">Copyright &copy; 2025 <a class="link-color text-white"
+                                    href="https://www.impaxivesolutions.com/">Impaxive Solutions</a></p>
+                        </div>
+                    </div>
+                    <!-- end copyright -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- whatsapp img-modal -->
+    <div class="right-modal-img d-none d-lg-block">
+        <a href="https://web.whatsapp.com/send?phone=+91 9154171047&text=Hello!" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+    <div class="right-modal-img d-lg-none d-block">
+        <a href="https://wa.me/+919154171047?text=Hello" target="_blank">
+            <i class="fa-brands fa-whatsapp "></i>
+        </a>
+    </div>
+
+
+    <!-- end footer -->
+      
+    <!-- start scroll to top -->
+    <!-- <a class="scroll-top-arrow bg-orange scroll-top-home" href="javascript:void(0);"><i class="ti-arrow-up"></i></a> -->
+    <!-- end scroll to top  -->
+    <!-- javascript libraries -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/skrollr.min.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <!-- menu navigation -->
+    <script type="text/javascript" src="js/bootsnav.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <!-- animation -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <!-- page scroll -->
+    <script type="text/javascript" src="js/page-scroll.js"></script>
+    <!-- swiper carousel -->
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <!-- counter -->
+    <script type="text/javascript" src="js/jquery.count-to.js"></script>
+    <!-- parallax -->
+    <script type="text/javascript" src="js/jquery.stellar.js"></script>
+    <!-- magnific popup -->
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <!-- portfolio with shorting tab -->
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <!-- images loaded -->
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- pull menu -->
+    <script type="text/javascript" src="js/classie.js"></script>
+    <script type="text/javascript" src="js/hamburger-menu.js"></script>
+    <!-- counter  -->
+    <script type="text/javascript" src="js/counter.js"></script>
+    <!-- fit video  -->
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <!-- skill bars  -->
+    <script type="text/javascript" src="js/skill.bars.jquery.js"></script>
+    <!-- justified gallery  -->
+    <script type="text/javascript" src="js/justified-gallery.min.js"></script>
+    <!--pie chart-->
+    <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+    <!-- retina -->
+    <script type="text/javascript" src="js/retina.min.js"></script>
+    <!-- revolution -->
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+    <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+    <!-- setting -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+        const scriptUrl1 = 'https://script.google.com/macros/s/AKfycbxGEkfEQhdftlM8WGa8sqa3HznBgGTjX7-T36KvP-qfM42S4YbFj0NCIwY1IgXPCZTU/exec'
+        // const scriptUrl1 = 'https://script.google.com/macros/s/AKfycbzJY1DLf1m9HJHygqZe-J_WWzDazNSjMnsGioLBRB68dVRH7E7qKLR8fBDrqCxJvBM/exec'
+        const form1 = document.querySelector('#contact-form1')
+        const btn1 = document.querySelector('#contact-us-button1')
+        var validDemo = false;
+
+        function validateForm1() {
+            let nameDemo1 = document.forms["form-contact"]["Name"].value;
+            let emailDemo1 = document.forms["form-contact"]["Email"].value;
+            let phoneNumber1 = document.forms["form-contact"]["Phone"].value;
+            let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+            let phoneNumberPattern = /^\+?([0-9]{2,4})\)?[-. ]?([0-9]{3,4})[-. ]?([0-9]{3,4})[-. ]?([0-9]{2,4})$/;
+            if (nameDemo1 == "") {
+                Swal.fire({
+                    text: 'Please enter your Name',
+                    icon: 'warning',
+                    confirmButtonText: 'ok'
+                })
+                return false
+            } else if (emailDemo1 == "") {
+                Swal.fire({
+                    text: 'Please enter Email Address',
+                    icon: 'warning',
+                    confirmButtonText: 'ok'
+                })
+                return false
+            } else if (!emailPattern.test(emailDemo1)) {
+                Swal.fire({
+                    text: 'Please enter valid Email Address',
+                    icon: 'warning',
+                    confirmButtonText: 'ok'
+                })
+                return false
+            } else if (phoneNumber1 == "") {
+                Swal.fire({
+                    text: 'Please enter Phone Number',
+                    icon: 'warning',
+                    confirmButtonText: 'ok'
+                })
+                return false
+            } else if (!phoneNumberPattern.test(phoneNumber1)) {
+                Swal.fire({
+                    text: 'Please enter valid Phone Number',
+                    icon: 'warning',
+                    confirmButtonText: 'ok'
+                })
+                return false
+            } else {
+                return true
+            }
+        }
+
+        form1.addEventListener('submit', e => {
+            e.preventDefault()
+            validateForm1();
+
+            if (validateForm1()) {
+                btn1.disabled = true
+                btn1.innerHTML = "Sending..."
+                fetch(scriptUrl1, { method: 'POST', body: new FormData(form1) }).then(response => {
+                    btn1.disabled = false
+                    btn1.innerHTML = 'Send Message'
+                    Swal.fire({
+                        title: 'Success',
+                        text: 'Thanks for contacting us. Our team will get in touch with you shortly',
+                        icon: 'success',
+                        confirmButtonText: 'ok'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            window.location.href = 'https://happyreviews.in/';
+                            form1.reset()
+                        } else {
+                            window.location.href = 'https://happyreviews.in/';
+                            form1.reset()
+                        }
+                    })
+                }).catch(error => {
+                    btn1.disabled = false
+                    btn1.innerHTML = 'Send Message'
+                    Swal.fire({
+                        title: 'Error!',
+                        text: error.message,
+                        icon: 'error',
+                        confirmButtonText: 'ok'
+                    })
+                })
+            }
+        })
+    </script>
+    <!-- Testimonial section -->
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const carouselEl = document.querySelector('#carouselExampleControls');
+      
+          if (carouselEl) {
+            // Initialize Bootstrap Carousel
+            const carousel = new bootstrap.Carousel(carouselEl, {
+              interval: 5000,       
+              ride: 'carousel',     
+              wrap: true,           
+              pause: false          
+            });
+      
+            // Optional manual controls (in case data-bs-slide isn't working)
+            const prevBtn = document.querySelector('.carousel-control-prev');
+            const nextBtn = document.querySelector('.carousel-control-next');
+      
+            if (prevBtn) {
+              prevBtn.addEventListener('click', () => carousel.prev());
+            }
+      
+            if (nextBtn) {
+              nextBtn.addEventListener('click', () => carousel.next());
+            }
+          }
+        });
+    </script> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
